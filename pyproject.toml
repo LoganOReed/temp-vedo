@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "vedotest"
+version = "0.1.0"
+description = ""
+authors = ["Logan Reed <me@loganreed.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+vedo = "^2024.5.1"
+scipy = "^1.13.1"
+pandas = "^2.2.2"
+neurom = "^4.0.1"
+plotly = "^5.22.0"
+numpy = "^1.26.4"
+trimesh = "^4.4.0"
+pymeshlab = "^2023.12.post1"
+networkx = "^3.3"
+recordclass = "^0.21.1"
+
+
+[tool.poetry.group.dev.dependencies]
+matplotlib-backend-kitty = "^2.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
